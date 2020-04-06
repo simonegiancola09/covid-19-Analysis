@@ -1,2 +1,33 @@
 # covid
 Data analysis on Italian data about the Covid-19 Disease
+Introduction
+1
+### Facts in short
+1
+On the 31st of december the Chinese government informed WHO authorities that they had discovered in the city of _Wuhan_ some strange _penumonia_ cases, due to a virus never seen before.
+From that moment onwards, it only took one month for the virus to be found inside the Italian borders, with the first two "turist patients" in Rome. In the following months, almost unnoticed, the Sars-CoV-2 crawled slowly underneath our lives becoming in a relatively small portion of 2020 the most demanding challenge of the recent years.
+
+A more detailed description of the timeline of the virus can be easily found at the following Wikipedia link:
+
+2019-2020 Coronavirus Pandemic
+
+Purpose and reason of the document
+The following document is neither a statement of facts, nor an attempt to predict the future. Any information of this kind extracted from the following pages is not a result of our purpose. All the chapters, graphs, and text paragraphs are an attempt to gain a greater understanding of the italian situation, done by exploiting the database kindly offered by the Italian Civil Protection, which stores data that is shared with citizens concerning the Covid-19 emergency.
+
+The target readers are not necessarily academics, since the concepts proposed are more citizen oriented, rather than for intellectuals. As a rule of thumb, it is an interesting read for someone who would like to stay informed, and see some graphs which are not usually showed on TV or journals, or at least not all in one. For this reason we also decided to add some interactive features which allow users to explore the database, and plot what they like, hoping that the server we exploit will do the work. In the event that the reader is currently looking at a PDF and would still enjoy some interaction with it, we suggest to click on the following link:
+
+REMINDER, PUT BINDER LINK FOR SHARING
+
+The whole notebook does not take into account approximation methods and error theory, we as authors are completely aware of that, and would've enjoyed not doing so. However, being Bachelor students, we decided not to risk being completely mistaken in the world of statistical estimation, which we will hopefully master at the end of our studies. Both of us saw this work as more of a python-oriented exercise rather than statistics-oriented.
+
+More on the authors
+Roberto Ceraolo: REMINDER PUT SOMETHING stronzo coglione e andicappato
+
+Simone Giancola: REMINDER PUT SOMEHTING grande champion idol
+
+First step: data exploration and cleaning
+Disclaimer: for those not interested in the coding part this chapter is (the only one) not necessary.
+
+Judged as one of the main processes in Machine Learning and Data Analysis projects, data exploration and cleaning is for sure necessary to understand what the Civil Protection is offering in its database. The code below performs the download three datasets, each storing information on areas of the peninsula. In particular, the "nazione" dataset stores the cumulative statistics of Italy, the "regioni" dataset stores information related to the regions, while the "province" one has less detailed information concerning Provinces, as subareas of the regions.
+
+The first rows are used to import the packages that will be used across the notebook to study th
