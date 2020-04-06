@@ -1,10 +1,28 @@
-# covid
-Data analysis on Italian data about the Covid-19 Disease
+The Italian Covid-19 emergency
+A brief data analysis and visualization document on the current situation in the Italian region
+
+REMINDER METTERE UN'IMMAGINETTA CARINA MAGARI
+
+Authors
+
+Roberto Ceraolo : robi.ceraolo@gmail.com +0039 3319999529 Simone Giancola : simonegiancola09@gmail.com +0039 3314788683
+
+We are absolutely not professionals, so any suggestion, either typo, code, writing, or analysis related is highly appreciated, and will be welcomed with enthusiasm.
+
+Table of Contents
+1  Introduction
+1.1  Facts in short
+1.2  Purpose and reason of the document
+1.3  More on the authors
+2  First step: data exploration and cleaning
+3  Second Step: Analysis
+4  Geographical Plotting attempt
+5  Approximation attempt
+6  Approximating total_positives al over the country
 Introduction
-1
-### Facts in short
-1
-On the 31st of december the Chinese government informed WHO authorities that they had discovered in the city of _Wuhan_ some strange _penumonia_ cases, due to a virus never seen before.
+Facts in short
+On the 31st of december the Chinese government informed WHO authorities that they had discovered in the city of Wuhan some strange penumonia cases, due to a virus never seen before.
+
 From that moment onwards, it only took one month for the virus to be found inside the Italian borders, with the first two "turist patients" in Rome. In the following months, almost unnoticed, the Sars-CoV-2 crawled slowly underneath our lives becoming in a relatively small portion of 2020 the most demanding challenge of the recent years.
 
 A more detailed description of the timeline of the virus can be easily found at the following Wikipedia link:
@@ -30,4 +48,4 @@ Disclaimer: for those not interested in the coding part this chapter is (the onl
 
 Judged as one of the main processes in Machine Learning and Data Analysis projects, data exploration and cleaning is for sure necessary to understand what the Civil Protection is offering in its database. The code below performs the download three datasets, each storing information on areas of the peninsula. In particular, the "nazione" dataset stores the cumulative statistics of Italy, the "regioni" dataset stores information related to the regions, while the "province" one has less detailed information concerning Provinces, as subareas of the regions.
 
-The first rows are used to import the packages that will be used across the notebook to study th
+The first rows are used to import the packages that will be used across the notebook to study the data.
