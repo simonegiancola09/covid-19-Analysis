@@ -11,9 +11,9 @@ We are absolutely not professionals, so any suggestion, either typo, code, writi
 
 Table of Contents
 1  Introduction
-1.1  Facts in short
-1.2  Purpose and reason of the document
-1.3  More on the authors
+  1.1  Facts in short
+  1.2  Purpose and reason of the document
+  1.3  More on the authors
 2  First step: data exploration and cleaning
 3  Second Step: Analysis
 4  Geographical Plotting attempt
@@ -38,14 +38,3 @@ REMINDER, PUT BINDER LINK FOR SHARING
 
 The whole notebook does not take into account approximation methods and error theory, we as authors are completely aware of that, and would've enjoyed not doing so. However, being Bachelor students, we decided not to risk being completely mistaken in the world of statistical estimation, which we will hopefully master at the end of our studies. Both of us saw this work as more of a python-oriented exercise rather than statistics-oriented.
 
-More on the authors
-Roberto Ceraolo: REMINDER PUT SOMETHING stronzo coglione e andicappato
-
-Simone Giancola: REMINDER PUT SOMEHTING grande champion idol
-
-First step: data exploration and cleaning
-Disclaimer: for those not interested in the coding part this chapter is (the only one) not necessary.
-
-Judged as one of the main processes in Machine Learning and Data Analysis projects, data exploration and cleaning is for sure necessary to understand what the Civil Protection is offering in its database. The code below performs the download three datasets, each storing information on areas of the peninsula. In particular, the "nazione" dataset stores the cumulative statistics of Italy, the "regioni" dataset stores information related to the regions, while the "province" one has less detailed information concerning Provinces, as subareas of the regions.
-
-The first rows are used to import the packages that will be used across the notebook to study the data.
