@@ -1,0 +1,12 @@
+pandas
+numpy
+matplotlib
+datetime
+seaborn
+scipy
+datetime
+ipywidgets
+cufflinks
+conda
+scikit-learn
+chart_studio
