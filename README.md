@@ -24,6 +24,8 @@ The following document is neither a statement of facts, nor an attempt to predic
 
 The target readers are not necessarily academics, since the concepts proposed are more citizen oriented, rather than for intellectuals. As a rule of thumb, it is an interesting read for someone who would like to stay informed, and see some graphs which are not usually showed on TV or journals, or at least not all in one. For this reason we also decided to add some interactive features which allow users to explore the database, and plot what they like, hoping that the server we exploit will do the work. In the event that the reader is currently looking at a PDF and would still enjoy some interaction with it, we suggest to click on the following link:
 
+Not suggested, as the database has changed over time. The best way to read the document is the static version. 
+
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Robbberto/covid/master)
 
 The whole notebook does not take into account approximation methods and error theory, we as authors are completely aware of that, and would've enjoyed not doing so. However, being Bachelor students, we decided not to risk being completely mistaken in the world of statistical estimation, which we will hopefully master at the end of our studies. Both of us saw this work as more of a python-oriented exercise rather than statistics-oriented.
