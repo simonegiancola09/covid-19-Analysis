@@ -1,6 +1,10 @@
 # The Italian Covid-19 emergency
 *A brief data analysis and visualization document on the current situation in the Italian region*
 
+**Update: please read the document at the following static link, since Github does not show it properly**
+[Nbviewer](https://nbviewer.jupyter.org/github/simonegiancola09/covid-19-Analysis/blob/master/Covid.ipynb)
+----
+
 **Authors** 
 _Roberto Ceraolo_ : robi.ceraolo@gmail.com +0039 3319999529
 _Simone Giancola_ : simonegiancola09@gmail.com +0039 3314788683
